@@ -1,0 +1,115 @@
+body {
+    overflow-y: scroll;
+}
+.container {
+    padding-top: 20px;
+    min-width: 1080px;
+}
+.container>h1 {
+    font-weight: bold;
+    text-shadow: 0 -1px 2px black;
+    margin-bottom: 40px;
+}
+#ul > li:nth-child(odd){
+    height: 50px;
+    background: #7ccced;
+    position: relative;
+    cursor: pointer;
+}
+#ul > li:nth-child(even){
+    position: relative;
+    cursor: pointer;
+    padding: 0 15px;
+}
+#ul > li:nth-child(odd) > h2 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 28px;
+    font: bold 18px/28px "宋体";
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+#ul > li:nth-child(odd) > h2 > span:nth-child(2) {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.artclic {
+    padding: 20px 10px 20px;
+    font: normal 14px "宋体";
+}
+.artclic > p {
+    text-indent: 2em;
+    color: #6c6c6c;
+    line-height: 1.6em;
+    padding-bottom: 12px;
+}
+.stagesRateDet {
+    width: 396px;
+    height: auto;
+    padding: 10px 20px 20px;
+    background-color: #eaf3ff;
+    border-radius: 12px;
+    border: 1px solid #7ccced;
+    text-indent: 0;
+    margin-left: 33px;
+}
+.lblStagesRate {
+    color: #f79107;
+}
+.is_show {
+    display: none;
+}
+.columnGroup {
+    width: auto;
+    height: auto;
+    line-height: 160%;
+    padding: 15px 20px 30px;
+    margin-bottom: 20px;
+    border: 1px solid #7ccced;
+}
+.lblStyle_120 {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+.columnGroup legend {
+    padding: 0 10px;
+    font: normal 18px/20px "微软雅黑";
+    color: #5cacdd;
+    width: auto;
+    border: none;
+}
+.userInput {
+    height: 24px;
+    padding: 0 4px;
+    background-color: #fff;
+    border: 1px solid #acacac;
+    text-align: center;
+    color: #5cacdd;
+    outline: none;
+}
+.div1 {
+    margin: 20px 0;
+}
+.div2 {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #5cacdd;
+}
+.span1 {
+    margin-left: 50px;
+}
+.span2 {
+    color: orangered;
+    font-size: 30px;
+}
+.span3 {
+    margin-left: 10px;
+}
+.hover:hover{
+    color: #2e6da4;
+}
+
+
